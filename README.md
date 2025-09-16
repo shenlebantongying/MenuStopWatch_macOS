@@ -1,4 +1,4 @@
-# Dead Simple and Efficient StopWatch on MenuBar.
+# Dead Simple and Efficient StopWatch in MenuBar.
 
 Source code only with no license.
 
@@ -8,7 +8,14 @@ App Icon was bluntly copied from <https://github.com/KDE/breeze-icons/blob/v6.11
 
 ![screenshot](./screenshot.png)
 
-# Local Distribution
+# Similar Apps
+
+- For Android -> <https://github.com/shenlebantongying/ArcadianStopWatch_Android>
+- For Linux -> <https://github.com/shenlebantongying/mStopWatch_Linux>
+
+# Dev
+
+## Local Distribution
 
 XCode 
 -> Menu 
@@ -18,3 +25,7 @@ XCode
 -> Custom
 -> Copy App
 -> Delete extra strings in name
+
+```sh
+swift format . -i -r
+```
